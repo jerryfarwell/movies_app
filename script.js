@@ -1,9 +1,6 @@
-let inserts = document.getElementById("infos");
-let insert = document.getElementById("info");
+let inserts = document.getElementById("lists");
 let fucks = document.getElementById("names");
-let fuck = document.getElementById("name");
 let counters = 0;
-let counter = 0;
 
 function searching() {
   input = document.getElementById("myInput").value;
@@ -67,18 +64,9 @@ function results(name, year, poster) {
 
 
 function myFunction() {
-    document.getElementById("info").innerHTML += "";       
+    document.getElementById("info").innerHTML += "not done yet ";       
          }  
 
 
 
 
-function readMore() {
-  let changeOpacity = document.querySelector(h1);
-  changeOpacity.style.opacity = 1;
-}
-
-function closer() {
-  let changeOpacity = document.querySelector();
-  changeOpacity.style.opacity = 0;
-}
